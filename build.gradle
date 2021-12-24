@@ -52,8 +52,8 @@ allprojects {
 
 dependencies {
     compileOnly 'com.github.MilkBowl:VaultAPI:1.7'
-    compileOnly 'org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT'
-    compileOnly 'com.github.koca2000:NoteBlockAPI:-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot-api:1.13.2-R0.1-SNAPSHOT'
+    compileOnly 'com.github.koca2000:NoteBlockAPI:2.0-SNAPSHOT'
     compileOnly fileTree("libs")
 
     implementation 'com.github.cryptomorin:XSeries:8.4.0'

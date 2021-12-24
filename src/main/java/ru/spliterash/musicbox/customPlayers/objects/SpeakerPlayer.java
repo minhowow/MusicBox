@@ -77,7 +77,7 @@ public class SpeakerPlayer extends EntitySongPlayer implements PlayerSongPlayer,
 
     @Override
     public boolean isDestroyed() {
-        return destroyed;
+        return !playing;
     }
 
     @Override
