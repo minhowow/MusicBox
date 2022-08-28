@@ -530,7 +530,7 @@ public enum Lang {
     ),
     REPEAT_ONE(
             "&eRepeat one song"
-    )
+    ),
     SILENT_MODE_LORE(
             Arrays.asList(
                     "&7In silent mode you can hear &bonly self songs&7.",
