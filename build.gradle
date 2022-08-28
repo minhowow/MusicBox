@@ -56,9 +56,9 @@ dependencies {
     compileOnly 'com.github.koca2000:NoteBlockAPI:-SNAPSHOT'
     compileOnly fileTree("libs")
 
-    implementation 'com.github.cryptomorin:XSeries:8.4.0'
+    implementation 'com.github.cryptomorin:XSeries:8.7.0'
     implementation 'com.github.BananaPuncher714:NBTEditor:master-SNAPSHOT'
-    implementation 'org.bstats:bstats-bukkit:2.2.1'
+    implementation 'org.bstats:bstats-bukkit:3.0.0'
 }
 
 //noinspection GroovyAssignabilityCheck

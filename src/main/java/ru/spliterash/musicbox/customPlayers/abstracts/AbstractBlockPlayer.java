@@ -106,7 +106,7 @@ public abstract class AbstractBlockPlayer extends PositionSongPlayer implements 
 
     @Override
     public boolean isDestroyed() {
-        return destroyed;
+        return !playing;
     }
 
     @Override
