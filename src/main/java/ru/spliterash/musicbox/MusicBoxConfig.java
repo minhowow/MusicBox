@@ -29,6 +29,7 @@ public class MusicBoxConfig {
     private int autoDestroy;
     private boolean bStats;
     private boolean extendedOctavesRange;
+    private boolean hearPermissionsCheck;
 
     @Getter
     @NoArgsConstructor(access = AccessLevel.PRIVATE)

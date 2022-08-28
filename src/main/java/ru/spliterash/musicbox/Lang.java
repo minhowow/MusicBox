@@ -530,10 +530,23 @@ public enum Lang {
     ),
     REPEAT_ONE(
             "&eRepeat one song"
+    )
+    SILENT_MODE_LORE(
+            Arrays.asList(
+                    "&7In silent mode you can hear &bonly self songs&7.",
+                    "&7No any other songplayers from player speakers, jukeboxs or signs",
+                    "&7Status: {status}"
+            ),
+            Arrays.asList(
+                    "&7В тихом режиме вы можете слышать &bтолько свою музыку&7.",
+                    "&7Никаких других проигрывателей от игроков с колокной, дисков или табличек",
+                    "&7Статус: {status}"
+            )
+    ),
+    SILENT_MODE(
+            "&6Silent mode",
+            "&6Тихий режим"
     );
-
-
-
     /**
      * Оригинальные переводы
      * 0 индекс - англиский

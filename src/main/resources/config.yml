@@ -45,3 +45,9 @@ jukeboxRadius: 64
 autoDestroy: 60
 
 extendedOctavesRange: false
+# Нужно ли проверять пекс musicbox.hear. По дефолту он не проверяется и все могут слышать музыку,
+# но вдруг вам сильно приспичило и надо прям, тогда ставим true и теперь никто без этого пекса слышать музыку не может
+# ----
+# Whether it is necessary to check the pex of musicbox.hear. By default, it is not checked and everyone can hear music
+# but if you need it, then set to true and now no one can hear music without this pex
+hearPermissionsCheck: false
