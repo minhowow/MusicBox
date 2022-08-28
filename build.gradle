@@ -4,7 +4,7 @@ import org.apache.tools.ant.filters.ReplaceTokens
 plugins {
     id 'java-library'
     id 'com.github.johnrengelman.shadow' version '5.2.0'
-    id "io.freefair.lombok" version "5.1.1"
+    id "io.freefair.lombok" version "6.3.0"
     id 'org.openjfx.javafxplugin' version '0.0.8'
 }
 allprojects {
@@ -56,9 +56,9 @@ dependencies {
     compileOnly 'com.github.koca2000:NoteBlockAPI:-SNAPSHOT'
     compileOnly fileTree("libs")
 
-    api 'com.github.cryptomorin:XSeries:8.8.0'
-    api 'com.github.BananaPuncher714:NBTEditor:master-SNAPSHOT'
-    api 'org.bstats:bstats-bukkit:3.0.0'
+    implementation 'com.github.cryptomorin:XSeries:8.4.0'
+    implementation 'com.github.BananaPuncher714:NBTEditor:master-SNAPSHOT'
+    implementation 'org.bstats:bstats-bukkit:2.2.1'
 }
 
 //noinspection GroovyAssignabilityCheck
