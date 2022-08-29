@@ -52,7 +52,7 @@ public class GUIActions {
     public void reloadGUI() {
         // Стандартный режим
         {
-            BarButton[] defaultBar = new BarButton[7];
+            BarButton[] defaultBar = new BarButton[6];
             // Кнопка открытия панели
             defaultBar[0] = controlPanelButton();
             // Кнопка тихого режима
@@ -60,11 +60,11 @@ public class GUIActions {
             // Кнопка остановки, просто чтобы не лезть каждый раз в панель
             defaultBar[2] = stopButton();
             // Редактор плейлистов
-            defaultBar[4] = playListEditor();
+            defaultBar[3] = playListEditor();
             // Смена режима проигрывания
-            defaultBar[5] = switchPlayMode();
-
-            defaultBar[6] = setRepeatMode();
+            defaultBar[4] = switchPlayMode();
+            
+            defaultBar[5] = setRepeatMode();
             DEFAULT_MODE = SongGUIParams
                     .builder()
                     .onSongLeftClick(GUIActions::playerPlayMusic)
