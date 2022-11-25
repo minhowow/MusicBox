@@ -3,7 +3,7 @@ import org.apache.tools.ant.filters.ReplaceTokens
 
 plugins {
     id 'java-library'
-    id 'com.github.johnrengelman.shadow' version '5.2.0'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
     id "io.freefair.lombok" version "6.3.0"
     id 'org.openjfx.javafxplugin' version '0.0.8'
 }
@@ -14,7 +14,7 @@ allprojects {
     apply from: new File(rootProject.rootDir, '/scripts/compileSub.gradle')
 
     group = 'ru.spliterash'
-    version = '2.1.0'
+    version = '2.1.2'
 
 
     sourceCompatibility = '1.8'
@@ -52,12 +52,12 @@ allprojects {
 
 dependencies {
     compileOnly 'com.github.MilkBowl:VaultAPI:1.7'
-    compileOnly 'org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT'
-    compileOnly 'com.github.koca2000:NoteBlockAPI:2.0-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT'
+    compileOnly 'com.github.koca2000:NoteBlockAPI:8b45bb3'
     compileOnly fileTree("libs")
 
-    implementation 'com.github.cryptomorin:XSeries:8.7.0'
-    implementation 'com.github.BananaPuncher714:NBTEditor:master-SNAPSHOT'
+    implementation 'com.github.cryptomorin:XSeries:9.1.0'
+    implementation 'io.github.BananaPuncher714:NBTEditor:master-SNAPSHOT'
     implementation 'org.bstats:bstats-bukkit:3.0.0'
 }
 
